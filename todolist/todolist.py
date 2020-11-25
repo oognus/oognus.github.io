@@ -14,6 +14,12 @@ def init():
     day = now.strftime("%D-%d")
     today = now.strftime("%y%m%d")
 
+    #number = int(input("숫자를 입력하세요: "))
+    #if number == 13:
+    #    print("correct!")
+    #else:
+    #    print("incorrent T_T")
+
     today_msg = globals()['todolist'+today]()
 
 def todolist201125():
@@ -24,10 +30,11 @@ def todolist201125():
 
     with open("todolist.json") as f:
         json_data = json.load(f)
+        print(json_data)
     
-    with open("todolist.json", "w") as f:
-        json_data['obj3'] = 3
-        json.dump(json_data, f)
+    #with open("todolist.json", "w") as f:
+    #    json_data['obj3'] = 3
+    #    json.dump(json_data, f)
 
     #print(json_data)
 
