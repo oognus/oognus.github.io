@@ -1,13 +1,12 @@
-"""
-1. 취소선 그리기
-2. 질문 되묻기
-31. 취소선 그리기1. 취소선 그리기1. 취소선 기기기기기기기기기그리. 오늘꺼 찾기
-"""
-
 import os.path
 import json
 import datetime
 now = datetime.datetime.now()
+
+"""
+ToDoList
+[ ] 정렬이 안돼서 원하는 항목을 done 할 수 없음 
+"""
 
 def init():
     year = now.strftime("%Y-%y")
@@ -15,34 +14,41 @@ def init():
     day = now.strftime("%D-%d")
     date = now.strftime("%y%m%d")
 
-
-    #number = int(input("숫자를 입력하세요: "))
-    #if number == 13:
-    #    print("correct!")
-    #else:
-    #    print("incorrent T_T")
-    
     try:
-        #today_msg = globals()['todolist'+today]()
         msg = load_data(date)
-
     except:
-        #파일 생성하고
-        #똑같이
         msg = "오늘은 ToDoList가 없어요"
    
     print(msg)
- 
-    menu = int(input("1)추가 2)완료\n")) 
+
+    menu = int(input("1)추가 2)완료 3) 끝\n")) 
     
     if menu == 1:
         input_todo = input("할 일을 입력하세요!\n")
-
         add_todo(date, input_todo)
-
-
     elif menu == 2:
-        print("완료!")
+        input_todo = input("어떤거죠?\n")
+        done_todo(date, input_todo)
+    elif menu == 3:
+        return
+
+def done_todo(date, todo_id):
+    file_nm = "todolist{}.json".format(date)
+
+    with open(file_nm) as f:
+        json_data = json.load(f)
+
+    with open(file_nm, "w") as f:
+        
+        for i in range(len(json_data)):
+            data = json_data[i]
+            if i == int(todo_id):
+                json_data[i]['is_done'] = True
+                break
+        json.dump(json_data, f)
+        f.close()
+        init()
+
 
 def add_todo(date, todo):
     file_nm = "todolist{}.json".format(date)
@@ -63,22 +69,14 @@ def add_todo(date, todo):
         init()
     
 def load_data(date):
-    print("load_data")
     file_nm = "todolist{}.json".format(date)
-    print(file_nm)
     if os.path.isfile(file_nm) == False:
         f = open(file_nm, "a")
         f.write("[\n]")
         f.close()
 
-    print("here__")
-    
     with open(file_nm) as f:
-        print("opened")
         todo_json = json.load(f)
-        print(todo_json)
-
-    print(todo_json)
 
     msg = "오늘의 할 일!\n"
     todolist = []
@@ -104,7 +102,6 @@ def todolist201125():
 
     with open("todolist.json") as f:
         json_data = json.load(f)
-        print(json_data)
     
     #with open("todolist.json", "w") as f:
     #    json_data['obj3'] = 3
@@ -135,7 +132,6 @@ def test():
 [v] todolist2
 [ ] todolist3
     """
-    print(msg)
 
 #
 init()
