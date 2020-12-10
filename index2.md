@@ -1,5 +1,12 @@
 ---
 
+
+ __  __  __  __      __
+|  ||  ||  ||  ||  ||
+ --  --  --      --  --
+         __|         __|
+                     
+
 ### Overview
 `tmux config file and scripts for easy use`
 
