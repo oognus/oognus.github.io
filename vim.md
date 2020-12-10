@@ -14,13 +14,22 @@ Vim이 짱
 
 **Insert mode**
 `Ctrl+n`: auto complete
+`i` `I`
+`a` `A`
+`o` `O`
 
 **Cut & Paste**
-`D`: delete to the end of the line
+`d` `D`: delete to the end of the line
 
+**Move**
+`w`
+`b`
+`gg` `G`
+`^`
+`$`
 
 [v] dd 하는데 라인은 그대로 유지하려면? - `0D`
-[ ] 문장 위치 이동
+[x] 문장 위치 이동
 [ ] 한글 지우는거 여전히 문제
 [ ] INSERT모드에서 이동이 필요할 때 화살표를 활용하나? 아니면 NORMAL모드로 전환 후 hjkl를 사용하나?
 [v] Vim 안에서 git 활용법
@@ -30,3 +39,5 @@ Vim이 짱
 [ ] Search / Replace
 
 
+
+한글이 문젠데 뭐가 문제  
