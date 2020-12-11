@@ -4,7 +4,7 @@ CLI only
 ### Overview
 
 ### Terminal
-[# terminal](/terminal)
+[terminal](/terminal)
 
 ### Vim
 [vim](/vim)
