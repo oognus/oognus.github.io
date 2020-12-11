@@ -3,9 +3,13 @@ CLI only
 
 ### Overview
 
+### Terminal
 [# terminal](/terminal)
-[vim](/vim)
-[git/github](/git)
 
+### Vim
+[vim](/vim)
+
+### Git
+[git/github](/git)
 
 
