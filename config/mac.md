@@ -10,4 +10,5 @@ terminal
 
 ### Hammerspoon
 https://github.com/Hammerspoon/hammerspoon
+https://johngrib.github.io/wiki/hammerspoon/
 
