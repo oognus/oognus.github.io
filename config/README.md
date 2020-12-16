@@ -3,8 +3,9 @@ CLI only
 
 ### Overview
 
-### Terminal
-[terminal](/terminal)
+
+### Mac
+[Mac](/mac)
 
 ### Vim
 [vim](./vim)
