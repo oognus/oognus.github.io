@@ -5,10 +5,9 @@
 ### Overview
 Vim이 짱
 어느 컴퓨터에서도 바로 활용할 수 있도록 프로젝트 만들기 install.sh까지
-순수 cli(e.g., terminal)
 
 ### Build
-[home](https://oognus.github.io)
+- [Vundle](./terminal)설치
 
 ### How to use
 
@@ -42,6 +41,3 @@ Vim이 짱
 [ ] Markdown preview
 [ ] Search / Replace
 
-
-
-한글이 문젠데 뭐가 문제  
