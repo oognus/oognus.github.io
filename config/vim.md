@@ -7,7 +7,8 @@ Vim이 짱
 어느 컴퓨터에서도 바로 활용할 수 있도록 프로젝트 만들기 install.sh까지
 
 ### Build
-- [Vundle](./terminal)설치
+- [Vundle](https://github.com/VundleVim/Vundle.vim) 설치
+- [vimrc](https://github.com/oognus/vim.git) 설치 - vimrc만 있어도 되나?
 
 ### How to use
 
