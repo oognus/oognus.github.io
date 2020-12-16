@@ -2,8 +2,11 @@ Mac
 ===
 
 # 사용툴
-- iTerm2
+- Terminal
 - Hammerspoon
+
+## Terminal
+- fin
 
 ### Hammerspoon
 https://github.com/Hammerspoon/hammerspoon

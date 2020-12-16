@@ -1,15 +1,16 @@
-CLI only
-===============
+CONFIG
+======
 
 ### Overview
+- 최대한 순정으로
+- 이쁜데 가볍게
 
-
-### Mac
-[Mac](/mac)
+### Terminal
+[terminal](./terminal)
 
 ### Vim
 [vim](./vim)
 
 ### Git
-[git/github](/git)
+[git/github](./git)
 
