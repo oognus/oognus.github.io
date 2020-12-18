@@ -7,7 +7,7 @@ Project
 ### ProjectTree
 ```
 .
-* a
+* a - repository
 * b
  * b-1
  * b-2
@@ -15,6 +15,14 @@ Project
  * c-1
 ```
 
+### Project 
+git과 관련 된 것들은 config/git.md에 기록
+- clone, fork, fetch, 참고 kakao github page
+- project 권한
+- github flow(branch전략)
+- 보안, key관리 등
+- 배포
+- 테스트
 
 
 ### Overview
