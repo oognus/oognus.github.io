@@ -15,6 +15,20 @@ Project
  * c-1
 ```
 
+```test
+|-- A
+|   |-- A-1
+|   |   |-- A-1-1
+|   |   |-- A-1-2
+|   |-- A-2
+|__ B
+|   |__ B-1
+|   |__ B-2
+|   |   |__ B-2-1
+|   |__ B-3
+|
+```
+
 ### Project 
 git과 관련 된 것들은 config/git.md에 기록
 - clone, fork, fetch, 참고 kakao github page
