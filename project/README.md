@@ -1,5 +1,21 @@
 Project
 =======
+- ProjectTree 짜기 
+- Project 돌려보기
+- Django 우선적용
+
+### ProjectTree
+```
+.
+* a
+* b
+ * b-1
+ * b-2
+* c
+ * c-1
+```
+
+
 
 ### Overview
 - 서비스들이 어떻게 구성되어 있고
