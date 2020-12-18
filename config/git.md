@@ -3,10 +3,13 @@ Git
 
 ### Overview
 git의 기능 보다는 실질적으로 어떻게 활용 되는지
+Issue Tracking System(ITS)
+Source Code Managerment(SCM)
 
 ### Tips
 https://www.datree.io/resources/github-best-practices
 https://blog.banksalad.com/tech/become-an-organization-that-deploys-1000-times-a-day/?gclid=CjwKCAiA_eb-BRB2EiwAGBnXXs4H2Dnf4axZSQx18Fe_e7OJKEkCm7lNVkmjAFBxeIyiIX5kTrhtjBoCGPIQAvD_BwE
+https://github.com/nearthlab/github-naming-rule
 
 
 ### 선택
