@@ -1,13 +1,17 @@
-terminal
-
+Mac
+===
 
 # 사용툴
-- Terminal
+- Terminal 
 - Hammerspoon
+- Tmux
 
 ### Terminal
-- fin
+- ~/Documents/settings/gruvbox-dark.terminal
+- font: monaco 14
+- 
 
+### Tmux
 
 ### Hammerspoon
 https://github.com/Hammerspoon/hammerspoon

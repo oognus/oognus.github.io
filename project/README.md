@@ -1,5 +1,29 @@
 Project
 =======
+- ProjectTree 짜기 
+- Project 돌려보기
+- Django 우선적용
+
+### ProjectTree
+```
+.
+* a - repository
+* b
+ * b-1
+ * b-2
+* c
+ * c-1
+```
+
+### Project 
+git과 관련 된 것들은 config/git.md에 기록
+- clone, fork, fetch, 참고 kakao github page
+- project 권한
+- github flow(branch전략)
+- 보안, key관리 등
+- 배포
+- 테스트
+
 
 ### Overview
 - 서비스들이 어떻게 구성되어 있고
