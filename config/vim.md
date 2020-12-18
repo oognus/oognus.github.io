@@ -41,7 +41,9 @@ Vim이 짱
 [ ] 프로젝트 전체 검색
 [ ] Markdown preview
 [ ] Search / Replace
-
+[ ] 들여쓰기 하면서 입력
+[ ] 느림
+[ ] 기존 프로젝트 들여쓰기 문제
 
 
 
