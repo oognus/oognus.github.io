@@ -36,7 +36,9 @@ https://github.com/nearthlab/github-naming-rule
 - role 
 
 ### Practice
-- Fork & Fetch
-- Pull Request
+iMac과 Mac을 다른 user로 세팅해놓고 테스트 하기 (iMac-oognus@gmail.com / Macbook-sunggoo@footplr.com)
+- git user 등록
+- Fork & Fetch (clone과 fork의 활용범위)
+- Pull Request (해보자)
 - rebase
 
