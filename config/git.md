@@ -42,3 +42,4 @@ iMac과 Mac을 다른 user로 세팅해놓고 테스트 하기 (iMac-oognus@gmai
 - Pull Request (해보자)
 - rebase
 
+### FromMacbook
