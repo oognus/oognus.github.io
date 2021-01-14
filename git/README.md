@@ -58,13 +58,13 @@ iMac과 Mac을 다른 user로 세팅해놓고 테스트 하기 (iMac-oognus@gmai
 ### Git
 - clone
 - add
-- commit
+- commit(--amend)
 - status
 - diff
-- restore
+- restore(reset, checkout)
 - rm (--cached 하면 기록만 날림)
 - mv (파일명을 변경할 때 linuxㅇㅔ서 mvㅎㅏ고 rm add ㅎㅐ야되는걸 한번에)
-- log
+- log (--oneline --decorate --graph --all --pretty)
 
 ### FromMacbook
 - add TASK
